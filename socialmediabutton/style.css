@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+body {
+    background: rgb(230, 251, 255);
+}
+
+.social-media {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.social-media div {
+    display: inline;
+}
+
+.social-media div a{
+    display: inline-flex;
+    width: 80px;
+    height: 80px;
+    background: #9eabb3;
+    font-size: 40px;
+    color: #fff;
+    margin: 0 5px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media .facebook a:hover {
+    background-color: #316FF6;
+}
+
+.social-media .twitter a:hover {
+    background-color: #000000;
+}
+
+.social-media .instagram a:hover {
+    background-image: linear-gradient(to top right, #f9ce34, #ee2a7b, #6228d7);  
+}
+
+.social-media .discord a:hover {
+    background-color: #7289d9;
+}
+
+.social-media .youtube a:hover {
+    background-color: #FF0000;
+}
+
+.social-media a i {
+    transition: 0.4s all;
+}
+
+.social-media a:hover > i {
+    transform: scale(1.3);
+}
